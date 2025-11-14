@@ -326,12 +326,20 @@ h6 {
 
     .popular__card,
     .feature__card {
-        width: 10rem !important;
+        max-width: 18rem !important;
     }
 
     .recommend__course li {
         font-size: small !important;
         flex: 1 0 25% !important;
+    }
+
+    .footer {
+        font-size: medium;
+    }
+
+    .footer__logo.align-center {
+        padding: 0 !important;
     }
 }
 
@@ -444,12 +452,30 @@ h6 {
 
     .popular__card,
     .feature__card {
-        width: 11.75rem !important;
+        width: 10.5rem !important;
         font-size: small;
     }
 
     .recommend {
         padding-top: 0.5rem !important;
+    }
+
+    .footer {
+        padding: 1rem !important;
+        font-size: smaller;
+        justify-content: space-around;
+    }
+
+    .footer__logo.align-center {
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .footer__cookie {
+        text-align: center;
+        width: 5rem !important;
+        margin-right: 0 !important;
+        font-size: small !important;
     }
 
 }
