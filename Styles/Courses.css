@@ -130,16 +130,54 @@
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
+.source {
+    background-color: #202230;
+    color: white;
+    display: flex;
+}
+
+.source__about,
+.source__discover,
+.source__business,
+.source__accessibility {
+    flex: 1 0 25%;
+    padding: 1.5rem;
+}
+
+.source__about h3,
+.source__discover h3,
+.source__business h3,
+.source__accessibility h3 {
+    padding: 1.5rem 0.5rem;
+}
+
+.source__about ul li,
+.source__discover ul li,
+.source__business ul li,
+.source__accessibility ul li {
+    font-weight: 100;
+    padding: 0.5rem 0.5rem;
+    list-style: none;
+}
+
+.source__about ul li:hover,
+.source__discover ul li:hover,
+.source__business ul li:hover,
+.source__accessibility ul li:hover {
+    text-decoration: underline;
+}
+
 .footer {
     padding: 1.5rem 4rem;
     background-color: #202230;
+    border-top: 1px solid white;
     color: white;
     font-weight: 100;
     justify-content: space-between;
 }
 
 .footer__logo {
-    padding: 0 3rem !important;
+    padding: 0 1rem !important;
     gap: 0.75rem;
 }
 

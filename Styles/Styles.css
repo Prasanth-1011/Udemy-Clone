@@ -460,6 +460,34 @@ h6 {
         padding-top: 0.5rem !important;
     }
 
+    .source {
+        padding: 0 0.25rem;
+    }
+
+    .source__about,
+    .source__discover,
+    .source__business,
+    .source__accessibility {
+        padding: 1rem 0.25 !important;
+    }
+
+    .source__about h3,
+    .source__discover h3,
+    .source__business h3,
+    .source__accessibility h3 {
+        padding: 0.5rem;
+        font-size: small;
+        font-weight: 400;
+    }
+
+    .source__about ul li,
+    .source__discover ul li,
+    .source__business ul li,
+    .source__accessibility ul li {
+        font-size: x-small;
+        padding: 0.25rem 0.25rem !important;
+    }
+
     .footer {
         padding: 1rem !important;
         font-size: smaller;
